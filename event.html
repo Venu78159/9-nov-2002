@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button onclick="demo()">submit</button>
+	<script type="text/javascript">
+		function demo(){
+			alert("danger")
+		}
+	</script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	
+	<script type="text/javascript">
+		function save(){
+		/*var s=document.getElementById("event").innerHTML;
+		console.log(s)
+		var a=document.getElementById("love").innerHTML;
+		console.log(a)
+		var b=document.getElementById("save").value;
+		console.log(b)*/
+		var group=document.getElementsByClassName("group")
+		var list=document.getElementsByTagName("list")
+		console.log(list)
+		//console.log(group[0]innerHTML)
+		for(var i=0;i<group.length;i++){
+			console.log(group[i].innerHTML)
+		}
+	}
+	</script>
+</head>
+<body>
+	<h1 class="group"> king kohli</h1>
+	<p class="group">good morning</p>
+	<h2 class="group">good evening</h2>
+	<h3 class="group">thanks</h3>
+	<input id="save" type="text" name="enter name">
+	<!-- <h1 id="event">events in javascript</h1>
+	<p id="love">i love India</p> -->
+	<ul>
+		<li>one</li>
+		<li>two</li>
+		<li>three</li>
+		<li>four</li>
+		<li>five</li>
+	</ul>
+	<button onclick="save()">submit</button>
+
+</body>
+</html>
