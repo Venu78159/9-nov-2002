@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*setTimeout(()=>{
+			console.log("amazon")
+		},5500)
+		console.log("flipkart")
+		console.log("meesho")*/
+		let promiseObj=new Promise((resolve,reject)=>{
+			var time=Math.random();
+			console.log(time)
+			if(time<.5)
+				return resolve("Data is there from server")
+			else
+				return reject("Server crashed")
+		})
+		console.log(promiseObj)
+		console.log("hello")
+	</script>
+
+</body>
+</html>
